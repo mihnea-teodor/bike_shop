@@ -1,0 +1,248 @@
+*{
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+html{
+	height:100%;
+	width:100%;
+	min-width:980px;
+	font-size:62.5%;
+}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-size:1.2em;
+	background-color:black;
+	line-height:1.4em;
+}
+
+/* navigation */
+ul.sidebar{
+position:absolute;
+top:235px;
+left:9px;
+width:22.3%;
+
+}
+
+
+#myScreen{
+	margin-top:120px;
+	height:auto;
+	width:100%;
+	border:2px #00FF66;
+}
+img{
+	height:auto;
+	width:99.5%;
+}
+
+
+
+
+#logo{
+	padding-right:65px;
+	height:75px;
+	width:250px;
+	top:75px;
+}
+/* --------------------------- */
+
+#white{
+	background-color:#FFF;
+	height:500px;
+	width:auto;
+}
+
+/* floating menu */
+
+
+#slider-wrapper{
+			width: 640px;
+			height: 470px;
+			margin: 50px auto;
+			position: relative;
+			left:150px;
+            top:130px;
+			margin-bottom: 0px;
+			background: rgba(0,0,0,0.5);
+			overflow:hidden;
+			}
+		
+ 
+				#s1{
+					padding: 6px;
+					background: #FFFFFF;
+					position: absolute;
+					left: 50%;
+					bottom: 25px;
+					margin-left: -36px;
+					border-radius: 20px;
+					opacity: 0.3;
+					cursor: pointer;
+					z-index: 999;
+				}
+				
+				#s2{
+					padding: 6px;
+					background: #FFFFFF;
+					position: absolute;
+					left: 50%;
+					bottom: 25px;
+					margin-left: -12px;
+					border-radius: 20px;
+					opacity: 0.3;
+					cursor: pointer;
+					z-index: 999;
+				}
+				
+				#s3{
+					padding: 6px;
+					background: #FFFFFF;
+					position: absolute;
+					left: 50%;
+					bottom: 25px;
+					margin-left: 12px;
+					border-radius: 20px;
+					opacity: 0.3;
+					cursor: pointer;
+					z-index: 999;
+				}
+				
+				#s4{
+					padding: 6px;
+					background: #FFFFFF;
+					position: absolute;
+					left: 50%;
+					bottom: 25px;
+					margin-left: 36px;
+					border-radius: 20px;
+					opacity: 0.3;
+					cursor: pointer;
+					z-index: 999;
+				}
+				
+				#s1:hover, #s2:hover, #s3:hover, #s4:hover{ opacity: 1;}
+				
+			.inner-wrapper{
+				width: 640px;
+			     height: 400px;
+				position: absolute;
+				top: 0;
+				left: 0;
+				margin-bottom: 0px;
+				overflow: hidden;
+			}
+				.control{ display: none;}
+				
+				#Slide1:checked ~ .overflow-wrapper{ margin-left: 0%; }
+				#Slide2:checked ~ .overflow-wrapper{ margin-left: -100%; }
+				#Slide3:checked ~ .overflow-wrapper{ margin-left: -200%; }
+				#Slide4:checked ~ .overflow-wrapper{ margin-left: -300%; }
+				
+				#Slide1:checked + #s1 { opacity: 1; }
+				#Slide2:checked + #s2 { opacity: 1; }
+				#Slide3:checked + #s3 { opacity: 1; }
+				#Slide4:checked + #s4 { opacity: 1; }
+				
+			.overflow-wrapper{
+				width: 400%;
+				height: 800%;
+				position: absolute;
+				top: 95px;
+				left: 0;
+				overflow-y: hidden;
+				z-index:1;
+				-webkit-transition: all 0.3s ease-in-out;
+				-moz-transition: all 0.3s ease-in-out;
+				-o-transition: all 0.3s ease-in-out;
+				transition: all 0.3s ease-in-out;
+				-webkit-tap-highlight-color:rgba(0,0,0,0);
+			}
+			
+				.slide img{
+					width: 25%;
+					float: left;
+				}
+				} 
+				
+html {
+  font-family: "Oswald"; 
+  margin: 1em 20%;
+  background-color: gray;
+}
+header {
+  
+  top: 10px;
+  right: 30px;
+  left: 50px;
+  border-bottom: 1px solid #e3e3e8;
+}
+#logo {
+  
+  position: absolute;
+  top: 130px; 
+  left: 10px; 
+  float: left;
+  font-size: 3em;
+  margin: 1;
+  padding: .4em;
+  text-decoration: none;
+  color: #333;
+  border-right: 1px solid red;
+  transition: .6s all;
+  
+}
+#logo:hover {
+  color: #fafafa;
+  background-color: gray;
+}
+nav {
+  float: right;
+  position: absolute;
+  top: 150px;
+  right: 70px;
+  left: 600px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding:4em 4em;
+}
+nav ul li {
+  display: inline;
+  padding: 0 .5em;
+}
+nav ul li a {
+  color: gray;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  padding-bottom: 1.3em;
+  transition: .5s color;
+}
+nav ul li a:hover {
+  border-bottom: 3px solid red;
+}
+#current {
+  color: white ;
+  border-bottom: 3px solid red;
+}
+#BikeShop:hover{
+color:white;
+}
+#AboutUs:hover {
+  color: white;
+}
+#TopBikes:hover {
+  color: white;
+}
+ul.imagechange{
+         height:1000px;
+		 width:600px;
+			position: relative;
+			left:490px;
+            top:150px;
+			
+}

@@ -1,0 +1,138 @@
+*{
+background-color:black;
+}
+html{
+    padding-top:400px;
+	height:100%;
+	width:100%;	
+    min-width:980px;	
+}
+
+#my_table{margin-top:200px}
+#text1{padding-right:225px;
+padding-left:225px;}
+#text2{padding-right:225px;
+padding-left:225px;}
+#text3{padding-right:225px;
+padding-left:225px;}
+#text4{padding-right:225px;
+padding-left:225px;}
+#text5{padding-right:225px;
+padding-left:225px;}
+#text6{padding-right:225px;
+padding-left:225px;}
+#text7{padding-right:225px;
+padding-left:225px;}
+header {
+  position: fixed;
+  top: 10px;
+  right: 30px;
+  left: 50px;
+  border-bottom: 1px solid #e3e3e8;
+}
+#loogo {
+  
+  position: absolute;
+  top: 130px; 
+  left: 10px; 
+  float: left;
+  font-size: 3em;
+  margin: 1;
+  padding: .4em;
+  text-decoration: none;
+  color: #333;
+  border-right: 1px solid red;
+  transition: .6s all;
+  
+}
+#loogo{
+	padding-right:65px;
+	height:75px;
+	width:250px;
+	top:165px;
+}
+#loogo:hover {
+  color: #fafafa;
+  background-color:  #00acee;
+}
+.menu nav {
+  float: right;
+  position:absolute;
+  top: 150px;
+  right: 70px;
+  left: 520px;
+}
+.menu nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding:4em 4em;
+}
+.menu nav ul li {
+  display: inline;
+  padding: 0 .5em;
+}
+.menu nav ul li a {
+  color: gray;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  padding-bottom: 1.3em;
+  transition: .5s color;
+}
+.menu nav ul li a:hover {
+  border-bottom: 3px solid red;
+}
+#Home:hover{
+  color: #00acee ;
+  
+}
+#BikeShop:hover{
+color:#00acee;
+}
+#AboutUs:hover {
+  color: #00acee;
+}
+#current:hover {
+  color: #00acee;
+  border-bottom: 3px solid red;
+}
+
+#viewport {
+    overflow:auto;
+}
+
+#viewport {
+    overflow:auto;
+}
+.footer{
+	background-color:#000;
+	width:100%;
+	height:30%;
+}
+.footer{
+	background-color:#000;
+	width:100%;
+	height:30%;
+}
+#nav{
+	 float:left;
+	padding-top:10%;
+	font-family:Arial, Helevetica, sans-serif ;
+	text-transform:uppercase;
+}
+.navigationfooter div,a ,p{
+	text-decoration:none;
+	color:#fff;
+	
+	
+	display:inline;
+	font-size:13px;
+}
+.navigationfooter div{margin-left:50%;}
+.imgfooter img{
+	width:34%;
+	height:60%; 
+	float:right;
+	/*margin-top:%;*/
+	margin-right:3%;
+}

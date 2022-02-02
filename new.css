@@ -1,0 +1,176 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+#all{text-align:center;}
+.header{
+	opacity:0.9;
+	filter:alpha(opacity=40);
+	margin-bottom:0;
+	position:fixed;
+	width:100%;
+	top:0px;
+	
+}
+
+.header ul{
+	text-align:center;
+	background-color:#000;	/*#596167*/
+	float:center;
+	width:102em;
+}
+.header ul li{
+	color:#fff;
+	padding-right:2em;
+	display: inline;
+	width:35%;
+}
+.header ul li img{
+	display:inline;
+}
+#logo{
+	display:inline;
+	float:left;
+	width:15%;
+}
+
+/* login form */
+#login{
+display:none;
+position:fixed;
+top:60px;
+right:20px;
+background:#CCC;
+}
+/* login form */
+
+/*menu chestii...................*/
+.menu nav {
+  float: right;
+  
+ 
+  
+}
+.menu nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding:4em 4em;
+}
+.menu nav ul li {
+  display: inline;
+  padding: 0.5em;
+}
+.menu nav ul li a {
+  color: gray;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  padding-bottom: 1.3em;
+  transition: .5s color;
+}
+.menu nav ul li a:hover {
+  border-bottom: 3px solid red;
+}
+#current:hover{
+  color:#000000;
+}
+#BikeShop:hover{
+color:#000000;
+}
+#AboutUs:hover {
+  color: #000000;
+}
+#TopBikes:hover {
+  color: #000000;
+}
+
+
+/*
+#horizontalmenu ul{
+
+	padding:1px;
+	list-style:none;
+	
+}
+#horizontalmenu li{
+	float:left;
+	position:relative;
+	padding-right:100;
+	display:block;
+	border:1px solid black;
+	border-style:inset;
+	margin-top:20%;
+}
+#horizontalmenu li ul{
+	display:none;
+	position:absolute;
+	
+}
+#horizontalmenu li:hover ul{
+	display:block;
+	background: #fff;
+	height: auto;
+	width: 8em;
+	
+}
+#horizontalmenu li ul li{
+	clear: both;
+	border-style:none;
+	
+	
+}*/
+.imgctm{
+	
+	text-align:center;
+	margin-left:20%;
+	
+}
+.table {
+	margin-left:20%;
+	text-align:center;
+	padding-top:5%;
+	margin-bottom:10%;
+}
+td{
+	text-align:center;
+	font-weight: bold;
+	font-size: 15px;
+	padding-bottom:10px;
+}
+#pret {
+	color:black;
+	box-shadow: 0 8px 6px -7px black;
+	}
+p#pret:hover,p#pret:active {
+	background:gray;
+}
+.footer{
+	background-color:#000;
+	width:100%;
+	height:30%;
+}
+#nav{
+	 float:left;
+	padding-top:10%;
+}
+.navigationfooter div,a ,p{
+	text-decoration:none;
+	color:#757575;
+	font-family:Arial, Helevetica, sans-serif ;
+	text-transform:uppercase;
+	
+	display:inline;
+	font-size:13px;
+}
+.navigationfooter div{margin-left:50%;}
+.imgfooter img{
+	width:34%;
+	height:60%;
+	float:right;
+	/*margin-top:%;*/
+	margin-right:3%;
+}
+/*{https://gist.github.com/ocean90/1268328}
+{https://www.google.ro/search?q=bottom+shagow+border+&oq=bottom+shagow+border+&aqs=chrome..69i57j0l5.7684j0j4&sourceid=chrome&es_sm=93&ie=UTF-8#q=bottom+shadow+border&spell=1}
+{http://tympanus.net/codrops/2010/07/16/slide-down-box-menu/}*/
